@@ -4,7 +4,7 @@
   "description": "This package is used to determine, whether the providet number is not not odd according to is-oddnt.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "odd",
@@ -16,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "is-oddnt": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
