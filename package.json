@@ -1,0 +1,20 @@
+{
+  "name": "is-oddntnt",
+  "version": "1.0.0",
+  "description": "This package is used to determine, whether the providet number is not not odd according to is-oddnt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "odd",
+    "numeric",
+    "is",
+    "even"
+  ],
+  "author": "FabianL1310",
+  "license": "MIT",
+  "dependencies": {
+    "is-oddnt": "^1.0.2"
+  }
+}
