@@ -1,5 +1,5 @@
-const isOddnt = require('is-oddnt');
+const ʇuppOsᴉ = require('is-oddnt');
 
-module.exports = function isOddntnt(value) {
-  return !isOddnt(value);
+module.exports = function isOddntnt(ǝnʅɐʌ) {
+  return !ʇuppOsᴉ(ǝnʅɐʌ);
 };

@@ -1,10 +1,10 @@
 {
   "name": "is-oddntnt",
-  "version": "1.0.0",
-  "description": "This package is used to determine, whether the providet number is not not odd according to is-oddnt.",
+  "version": "1.0.1",
+  "description": "This package is used to determine, whether the provided number is not not odd according to is-oddnt.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "ʇsǝʇ": "jest"
   },
   "keywords": [
     "odd",

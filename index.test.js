@@ -1,26 +1,26 @@
-const isOddntnt = require('./index.js');
+const ʇuppOsᴉ = require('./index.js');
 
-describe('isOddntnt', () => {
-    it('should return false for even numbers', () => {
-        expect(isOddntnt(2)).toBe(false);
-        expect(isOddntnt(4)).toBe(false);
-        expect(isOddntnt(0)).toBe(false);
+describe('ʇuppOsᴉ', () => {
+    it('sɹǝqɯnu uǝʌǝ ɹoⅎ ǝsʅɐⅎ uɹnʇǝɹ pʅnoɥs', () => {
+        expect(ʇuppOsᴉ(2)).toBe(false);
+        expect(ʇuppOsᴉ(4)).toBe(false);
+        expect(ʇuppOsᴉ(0)).toBe(false);
     });
     
-    it('should return true for odd numbers', () => {
-        expect(isOddntnt(1)).toBe(true);
-        expect(isOddntnt(3)).toBe(true);
-        expect(isOddntnt(-1)).toBe(true);
+    it('sɹǝqɯnu ppo ɹoⅎ ǝnɹʇ uɹnʇǝɹ pʅnoɥs', () => {
+        expect(ʇuppOsᴉ(1)).toBe(true);
+        expect(ʇuppOsᴉ(3)).toBe(true);
+        expect(ʇuppOsᴉ(-1)).toBe(true);
     });
     
-    it('should return false for non-integer even values', () => {
-        expect(isOddntnt(2.0)).toBe(false);
-        expect(isOddntnt(-4.0)).toBe(false);
+    it('sǝnʅɐʌ uǝʌǝ ɹǝƃǝʇuᴉ-uou ɹoⅎ ǝsʅɐⅎ uɹnʇǝɹ pʅnoɥs', () => {
+        expect(ʇuppOsᴉ(2.0)).toBe(false);
+        expect(ʇuppOsᴉ(-4.0)).toBe(false);
     });
 
-    it('should throw error for non-integer values', () => {
-        expect(()=> isOddntnt(1.5)).toThrow();
-        expect(()=> isOddntnt(-2.5)).toThrow();
-        expect(()=> isOddntnt("oddntnt")).toThrow();
+    it('sǝnʅɐʌ ɹǝƃǝʇuᴉ-uou ɹoⅎ ɹoɹɹǝ ʍoɹɥʇ pʅnoɥs', () => {
+        expect(()=> ʇuppOsᴉ(1.5)).toThrow();
+        expect(()=> ʇuppOsᴉ(-2.5)).toThrow();
+        expect(()=> ʇuppOsᴉ("ʇuʇuppo")).toThrow();
     });
 });
