@@ -1,6 +1,6 @@
 {
   "name": "is-oddntnt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package is used to determine, whether the provided number is not not odd according to is-oddnt.",
   "main": "index.js",
   "scripts": {
